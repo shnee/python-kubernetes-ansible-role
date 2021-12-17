@@ -1,0 +1,4 @@
+---
+- src: git+https://github.com/shnee/pip-ansible-role.git
+  name: install_pip
+  version: master

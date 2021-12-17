@@ -1,0 +1,6 @@
+---
+- name: Install kubernetes library via pip.
+  pip:
+    name: kubernetes
+    state: present
+  become: true

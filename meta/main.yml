@@ -1,0 +1,26 @@
+---
+dependencies:
+  - name: install_pip
+    src: git+https://github.com/shnee/pip-ansible-role.git
+    version: master
+
+galaxy_info:
+  author: shnee
+  description: Installs the python kubernetes library via pip.
+
+  license: MIT
+
+  min_ansible_version: 2.1
+
+  platforms:
+    - name: EL
+      versions:
+        - 8
+    - name: Ubuntu
+      versions:
+        - focal  # 20.04
+
+  galaxy_tags:
+    - python
+    - pip
+    - kubernetes
